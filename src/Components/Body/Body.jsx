@@ -1,7 +1,9 @@
 import React from 'react';
 import styles from "./Body.module.scss";
 import SignUp from './SignUp';
-import Works from './Works';
+import Works from './Works/Works';
+// import Works from './Works';
+
 
 function Body() {
   return (
@@ -9,9 +11,9 @@ function Body() {
       <div className={styles.sign_up} >
         <SignUp />
       </div>
-      {/* <div className={styles.works} >
+      <div className={styles.works} >
         <Works/>
-      </div> */}
+      </div>
     </div>
   );
 };

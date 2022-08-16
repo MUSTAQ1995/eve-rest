@@ -1,0 +1,64 @@
+.work_one{
+    display: flex;
+    margin-top: 2rem;
+
+    .workone_pictures{
+        flex: 0.5;
+        
+        .pic_one{
+            float: right;
+        }
+        .one_one{
+            float: right;
+            margin-right: -6.2rem;
+            margin-top: 2.2rem;
+        }
+    }
+    .desc_one{
+        flex: 0.5;
+        margin-top: 2rem;
+        margin-left: 2rem;
+        span {
+            font-size: 2.5rem;
+            font-weight: 500;
+        }
+        p{
+            width: 50%;
+            margin-top: 1rem;
+            font-size: large;
+            font-weight: 500;
+        }
+    }
+};
+
+@media only screen and (max-width:600px){
+    .work_one{
+        margin-top: 2rem;
+        display: block;
+        .workone_pictures{
+            display: flex;
+            .pic_one{
+                height: 62rem;
+                width: 74rem;
+            }
+            .one_one{
+                height: 20rem;
+                margin-left: -55rem;
+                margin-top: 5.2rem;
+            }
+        }
+        .desc_one{
+            margin-left: 9rem;
+            span {
+                font-size: 8rem !important;
+                font-weight: 500 ;
+            }
+            p{
+                width: 50%;
+                margin-top: 1rem;
+                font-size: 3rem;
+                font-weight: 500;
+            }
+        }
+    }
+}

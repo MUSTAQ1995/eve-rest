@@ -1,0 +1,41 @@
+.try_it {
+    border: 4px solid #EF8094;
+    text-align: center;
+    margin-top: 5rem;
+    height: 3rem;
+    line-height: 3rem;
+    border-radius: 30px;
+    width: 16rem;
+    margin-right: auto;
+    margin-left: auto;
+
+    p {
+        font-weight: 500;
+        
+        span {
+            font-weight: bold;
+        }
+    }
+}
+
+@media only screen and (max-width:600px){
+    .try_it {
+        border: 8px solid #EF8094;
+        text-align: center;
+        height: 10rem;
+        line-height: 2.4;
+        border-radius: 84px;
+        width: 53rem;
+        margin-top: 126rem;
+        margin-right: auto;
+        margin-left: auto;
+
+        p {
+            font-weight: 500;
+            font-size: 4rem;
+            span {
+                font-weight: 500;
+            }
+        }
+    }
+}

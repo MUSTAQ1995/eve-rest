@@ -4,6 +4,7 @@ import WorkOne from './WorkOne';
 import WorkTwo from './WorkTwo';
 import styles from "./Works.module.scss";
 import WorkThree from './WorkThree';
+import Try from './Try';
 
 
 function Works() {
@@ -16,9 +17,7 @@ function Works() {
         <WorkOne/>
         <WorkTwo/>
         <WorkThree/>
-        <div className={styles.try_it} >
-            <p>TRY IT FOR YOURSELF <span style={{ fontWeight: "bold"}}>&gt;</span></p>
-        </div>
+        <Try/>
     </div>
   )
 }

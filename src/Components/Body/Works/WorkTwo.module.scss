@@ -1,0 +1,216 @@
+.work_two{
+    margin-top: -11rem;
+    margin-right: 20rem;
+    .workTwo_right{
+        width: 100%;
+        .workTwo_pictures{
+            .pic_two{
+                float: right;
+                background: url("../../../assets/pngs/work2-art.png");
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-size: 18rem;
+                background-position-x: 34rem;
+                margin-bottom: -15.5rem;
+                background-position-y: 10rem;
+                height: 40rem;
+            }
+            .two_two{
+                margin-left: 56.5rem
+            }
+        }
+        .workTwo_desc{
+            width: 27%;
+            float: right;
+            margin-right: 6.4rem;
+            margin-top: -4rem;
+            span {
+                font-size: 2.5rem;
+                font-weight: 500;
+            }
+            p{
+                margin-top: 1rem;
+                font-size: large;
+                font-weight: 500;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width:1600px) {
+    .work_two{
+        margin-left: 9rem;
+        .workTwo_right{
+            width: 100%;
+            margin-left: 10rem;
+                .two_two{           
+                    margin-left: 27.5rem !important;
+                }
+            .workTwo_desc{
+                margin-right: 14.4rem !important;
+
+                span {
+                    font-size: 2.5rem;
+                    font-weight: 500;
+                }
+                p{
+                    margin-top: 1rem;
+                    font-size: large;
+                    font-weight: 500;
+                }
+            }
+        }
+    }
+};
+
+@media only screen  and (max-width:1500px) {
+    .work_two{
+        margin-left: 9rem;
+        .workTwo_right{
+            width: 100%;
+            margin-left: 15rem !important;
+                .two_two{           
+                    margin-left: 17.5rem !important;
+                }
+            .workTwo_desc{
+                margin-right: 17.4rem !important;
+
+                span {
+                    font-size: 2.5rem;
+                    font-weight: 500;
+                }
+                p{
+                    margin-top: 1rem;
+                    font-size: large;
+                    font-weight: 500;
+                }
+            }
+        }
+    }
+};
+
+@media only screen  and (max-width:1366px) {
+    .work_two{
+        margin-left: 9rem;
+        .workTwo_right{
+            width: 100%;
+            margin-left: 15rem !important;
+                .two_two{           
+                    margin-left: 13.5rem !important;
+                }
+            .workTwo_desc{
+                margin-right: 18.4rem !important;
+
+                span {
+                    font-size: 2.5rem;
+                    font-weight: 500;
+                }
+                p{
+                    margin-top: 1rem;
+                    font-size: large;
+                    font-weight: 500;
+                }
+            }
+        }
+    }
+};
+
+@media only screen and (max-width:1024px) {
+    .work_two {
+        .workTwo_right{
+            .workTwo_pictures{
+                .pic_two{
+                    margin-right: -12rem !important;
+                  
+                }
+                .two_two{
+                    margin-left: 3.5rem !important;
+                }
+            }
+            .workTwo_desc{
+                width: 75% !important;
+                margin-right: -3.6rem !important;
+                span {
+                    font-size: 2.5rem;
+                    font-weight: 500;
+                }
+                p{
+                    margin-top: 1rem;
+                    font-size: large;
+                    font-weight: 500;
+                }
+            }
+        }
+    }
+};
+
+@media only screen and (max-width:768px){
+        .work_two {
+            .workTwo_right{
+                .workTwo_pictures{
+                    .pic_two{
+                        margin-right: -12rem !important;
+                    }
+                    .two_two{
+                        margin-left: 9.5rem !important;
+                    }
+                }
+                .workTwo_desc{
+                    width: 75% !important;
+                    margin-right: -7.6rem !important;
+                    span {
+                        font-size: 2.5rem;
+                        font-weight: 500;
+                    }
+                    p{
+                        margin-top: 1rem;
+                        font-size: large;
+                        font-weight: 500;
+                    }
+                }
+            }
+        }
+    }
+
+    @media only screen and (max-width:600px){
+        .work_two{
+            display: block;
+            margin-top: -11rem;
+            margin-right: 20rem;
+            .workTwo_right{
+                width: 100%;
+                .workTwo_pictures{
+                    margin-left: 1rem !important;
+                    .pic_two{
+                        float: right;
+                        margin-top: 6rem;
+                        background-position-x: 67rem;
+                        background-position-y: 25rem;
+                        height: 86rem;
+                        width: 109rem;
+                        background: none;
+                    }
+                    .two_two{
+                        height: 20rem !important;
+                        margin-top: 15rem;
+                        margin-left: -16rem !important;
+                    }
+                }
+                .workTwo_desc{
+                    width: 100% !important;
+                    margin-top: -4rem;
+                    margin-right: 16rem !important;
+                    span {
+                        font-size: 7rem !important;
+                        font-weight: 500 !important;
+                    }
+                    p{
+                        margin-top: 1rem;
+                        font-size: 3rem;
+                        width: 50rem;
+                        font-weight: 500;
+                    }
+                }
+            }
+        }
+    }

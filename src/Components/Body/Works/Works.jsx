@@ -1,11 +1,11 @@
 import React from 'react';
 import Underline from "../../../assets/svgs/underline.svg";
-import WorkTwo from "../../../assets/pngs/work2.png";
-import Two from "../../../assets/svgs/two.svg";
 import ThreeWork from "../../../assets/svgs/workthree.svg";
 import Three from "../../../assets/svgs/three.svg";
-import styles from "./Works.module.scss";
 import WorkOne from './WorkOne';
+import WorkTwo from './WorkTwo';
+import styles from "./Works.module.scss";
+
 
 function Works() {
   return (
@@ -15,21 +15,7 @@ function Works() {
             <img src={Underline} />
         </figure>
         <WorkOne/>
-        <div className={styles.work_two} >
-            <div className={styles.workTwo_right} >
-                <div className={styles.workTwo_pictures} >
-                    <img src={WorkTwo} alt="Work Two" className={styles.pic_two} />
-                    <img src={Two} alt="Two" className={styles.two_two} />
-                </div>
-                <div className={styles.workTwo_desc} >
-                    <span> Review your <br/>custom box </span>
-                    <p>Once we get to know you, we will show you the
-                        box we've crafted.This is your chance to approve 
-                        it before we ship it to your house.
-                    </p>
-                </div>
-            </div>
-        </div>
+        <WorkTwo/>
         <div className={styles.work_three}>
             <div className={styles.workthree_pictures} >
                 <img src={ThreeWork} alt="Work Three" className={styles.pic_three}  />

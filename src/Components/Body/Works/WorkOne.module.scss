@@ -1,20 +1,20 @@
-.work_one{
+.workone{
     display: flex;
     margin-top: 2rem;
 
-    .workone_pictures{
+    .workonepictures{
         flex: 0.5;
         
-        .pic_one{
+        .picone{
             float: right;
         }
-        .one_one{
+        .oneone{
             float: right;
             margin-right: -6.2rem;
             margin-top: 2.2rem;
         }
     }
-    .desc_one{
+    .descone{
         flex: 0.5;
         margin-top: 2rem;
         margin-left: 2rem;
@@ -32,7 +32,7 @@
 };
 
 @media only screen and (max-width:1024px) {
-    .desc_one{
+    .descone{
         span {
             font-size: 2.5rem;
         }
@@ -46,22 +46,22 @@
 }
 
 @media only screen and (max-width:600px){
-    .work_one{
+    .workone{
         margin-top: 2rem;
         display: block;
-        .workone_pictures{
+        .workonepictures{
             display: flex;
-            .pic_one{
+            .picone{
                 height: 62rem;
                 width: 74rem;
             }
-            .one_one{
+            .oneone{
                 height: 20rem;
                 margin-left: -55rem;
                 margin-top: 5.2rem;
             }
         }
-        .desc_one{
+        .descone{
             margin-left: 9rem;
             span {
                 font-size: 7rem !important;
@@ -75,4 +75,4 @@
             }
         }
     }
-}
+};

@@ -28,41 +28,41 @@ function Header() {
     <>
     {menu ? (
       <header className={styles.container} >
-        <figure className={styles.top_bar} >
+        <figure className={styles.topbar} >
           <img src={TopBar} alt={TopBar} />
         </figure>
-        <nav className={styles.nav_bar} >
+        <nav className={styles.navbar} >
           <figure className={styles.logo} >
             <img src={Logo} alt={Logo} />
           </figure>
-          <section className={styles.navbar_menu} >
-            <ul className={styles.menu_details}>
+          <section className={styles.navbarmenu} >
+            <ul className={styles.menudetails}>
               {listItems.map((list, index) => {
                 return(
                   <li key={index}><h5>{list.name}</h5></li>
                 )
               })}
             </ul>
-            <div className={styles.log_in} >
+            <div className={styles.login} >
               <h5>LOG IN &gt; </h5>
             </div>
           </section>
         </nav>
-        <nav className={styles.mobile_navbar} >
-          <figure className={styles.logo_mobile}  >
+        <nav className={styles.mobilenavbar} >
+          <figure className={styles.logomobile}  >
             <img src={Logo} alt={Logo}  />
           </figure>
-          <figure className={styles.mobile_menu} onClick={() => handleShowMenu()} >
+          <figure className={styles.mobilemenu} onClick={() => handleShowMenu()} >
             <img src={Menu} alt="Menu" />
           </figure>
         </nav>
       </header>
     ) : (
-      <nav className={styles.show_menu} >
+      <nav className={styles.showmenu} >
           <figure className={styles.close} onClick={() => handleHideMenu()} >
             <img src={Close} alt="Close"  />
           </figure>
-          <ul className={styles.mobile_list} >
+          <ul className={styles.mobilelist} >
           {listItems.map((list, index) => {
                 return(
                   <li key={index}><h5>{list.name}</h5></li>

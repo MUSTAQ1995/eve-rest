@@ -1,21 +1,21 @@
-.work_three{
+.workthree{
     margin-top: 15rem;
     display: flex;
     height: 30rem;
-    .workthree_pictures{
+    .workthreepictures{
         flex: 0.5;
         
-        .pic_three{
+        .picthree{
             float: right;
             height: 25rem;
             margin-bottom: -14rem;
         }
-        .three_three{
+        .threethree{
             margin-left: 39.6rem;
             margin-top: -10rem;
         }
     }
-    .desc_three{
+    .descthree{
         flex: 0.4;
         margin-top: 2rem;
         margin-left: 2rem;
@@ -32,32 +32,32 @@
 };
 
 @media only screen and (max-width:1600px) {
-    .three_three{
+    .threethree{
         margin-left: 29.6rem !important;
     }
 };
 
 @media only screen  and (max-width:1500px) {
-    .three_three{
+    .threethree{
         margin-left: 24.6rem !important;
     }
 };
 
 @media only screen  and (max-width:1366px) {
-    .three_three{
+    .threethree{
         margin-left: 22rem !important;
     }
 };
 
 @media only screen and (max-width:1024px) {
-    .work_three{
-        .workthree_pictures{
-            .three_three{
+    .workthree{
+        .workthreepictures{
+            .threethree{
                 margin-left: 11.6rem !important;
                 margin-top: -10rem;
             }
         }
-        .desc_three{
+        .descthree{
             flex: 0.4;
             margin-top: 2rem;
             margin-left: 2rem;
@@ -76,14 +76,14 @@
 };
 
 @media only screen and (max-width:768px){
-    .work_three{
-        .workthree_pictures{
-            .three_three{
+    .workthree{
+        .workthreepictures{
+            .threethree{
                 margin-left: 14.6rem !important;
                 margin-top: -10rem;
             }
         }
-        .desc_three{
+        .descthree{
             flex: 0.4;
             margin-top: 2rem;
             margin-left: 2rem;
@@ -102,24 +102,24 @@
 }
 
 @media only screen and (max-width:600px){
-    .work_three{
+    .workthree{
         display: block;
-        .workthree_pictures{
+        .workthreepictures{
             
-            .pic_three{
+            .picthree{
                 float: left;
                 margin-left: 9rem !important;
                 margin-bottom: -53rem !important;
                 height: 60rem !important;
             }
-            .three_three{
+            .threethree{
                 margin-left: 12.6rem !important;
                 height: 20rem;
                 margin-bottom: 7rem;
                 margin-top: 1rem;
             }
         }
-        .desc_three{
+        .descthree{
             margin-top: 28rem;
             margin-left: 7rem;
             span {

@@ -5,13 +5,13 @@ import styles from "./WorkTwo.module.scss";
 
 function WorkTwo() {
   return (
-    <section className={styles.work_two} >
-        <article className={styles.workTwo_right} >
-            <figure className={styles.workTwo_pictures} >
-                <img src={Worktwo} alt="Work Two" className={styles.pic_two} />
-                <img src={Two} alt="Two" className={styles.two_two} />
+    <section className={styles.worktwo} >
+        <article className={styles.workTworight} >
+            <figure className={styles.workTwopictures} >
+                <img src={Worktwo} alt="Work Two" className={styles.pictwo} />
+                <img src={Two} alt="Two" className={styles.twotwo} />
             </figure>
-            <section className={styles.workTwo_desc} >
+            <section className={styles.workTwodesc} >
                 <span> Review your <br/>custom box </span>
                 <p>Once we get to know you, we will show you the
                     box we've crafted.This is your chance to approve 

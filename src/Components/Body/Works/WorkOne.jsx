@@ -6,12 +6,12 @@ import styles from "./WorkOne.module.scss";
 function WorkOne() {
   return (
     <section>
-         <article className={styles.work_one} >
-            <figure className={styles.workone_pictures} >
-                <img src={Onework} alt="Work One" className={styles.pic_one}  />
-                <img src={One} alt="One" className={styles.one_one} />
+         <article className={styles.workone} >
+            <figure className={styles.workonepictures} >
+                <img src={Onework} alt="Work One" className={styles.picone}  />
+                <img src={One} alt="One" className={styles.oneone} />
             </figure>
-            <div className={styles.desc_one} >
+            <div className={styles.descone} >
                 <span>Setup your profiel {"&"}<br/> preferences</span>
                 <p>Once you create an account, you can start to tell us 
                     your likes and dislikes so we can tailor
@@ -21,6 +21,6 @@ function WorkOne() {
         </article>
     </section>
   )
-}
+};
 
-export default WorkOne
+export default WorkOne;

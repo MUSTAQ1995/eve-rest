@@ -1,10 +1,10 @@
-.work_two{
+.worktwo{
     margin-top: -11rem;
     margin-right: 20rem;
-    .workTwo_right{
+    .workTworight{
         width: 100%;
-        .workTwo_pictures{
-            .pic_two{
+        .workTwopictures{
+            .pictwo{
                 float: right;
                 background: url("../../../assets/pngs/work2-art.png");
                 background-size: cover;
@@ -15,11 +15,11 @@
                 background-position-y: 10rem;
                 height: 40rem;
             }
-            .two_two{
+            .twotwo{
                 margin-left: 56.5rem
             }
         }
-        .workTwo_desc{
+        .workTwodesc{
             width: 27%;
             float: right;
             margin-right: 6.4rem;
@@ -38,15 +38,15 @@
 }
 
 @media only screen and (max-width:1600px) {
-    .work_two{
+    .worktwo{
         margin-left: 9rem;
-        .workTwo_right{
+        .workTworight{
             width: 100%;
             margin-left: 10rem;
-                .two_two{           
+                .twotwo{           
                     margin-left: 27.5rem !important;
                 }
-            .workTwo_desc{
+            .workTwodesc{
                 margin-right: 14.4rem !important;
 
                 span {
@@ -64,15 +64,15 @@
 };
 
 @media only screen  and (max-width:1500px) {
-    .work_two{
+    .worktwo{
         margin-left: 9rem;
-        .workTwo_right{
+        .workTworight{
             width: 100%;
             margin-left: 15rem !important;
-                .two_two{           
+                .twotwo{           
                     margin-left: 17.5rem !important;
                 }
-            .workTwo_desc{
+            .workTwodesc{
                 margin-right: 17.4rem !important;
 
                 span {
@@ -90,15 +90,15 @@
 };
 
 @media only screen  and (max-width:1366px) {
-    .work_two{
+    .worktwo{
         margin-left: 9rem;
-        .workTwo_right{
+        .workTworight{
             width: 100%;
             margin-left: 15rem !important;
-                .two_two{           
+                .twotwo{           
                     margin-left: 13.5rem !important;
                 }
-            .workTwo_desc{
+            .workTwodesc{
                 margin-right: 18.4rem !important;
 
                 span {
@@ -116,18 +116,18 @@
 };
 
 @media only screen and (max-width:1024px) {
-    .work_two {
-        .workTwo_right{
-            .workTwo_pictures{
-                .pic_two{
+    .worktwo {
+        .workTworight{
+            .workTwopictures{
+                .pictwo{
                     margin-right: -12rem !important;
                   
                 }
-                .two_two{
+                .twotwo{
                     margin-left: 3.5rem !important;
                 }
             }
-            .workTwo_desc{
+            .workTwodesc{
                 width: 75% !important;
                 margin-right: -3.6rem !important;
                 span {
@@ -145,17 +145,17 @@
 };
 
 @media only screen and (max-width:768px){
-        .work_two {
-            .workTwo_right{
-                .workTwo_pictures{
-                    .pic_two{
+        .worktwo {
+            .workTworight{
+                .workTwopictures{
+                    .pictwo{
                         margin-right: -12rem !important;
                     }
-                    .two_two{
+                    .twotwo{
                         margin-left: 9.5rem !important;
                     }
                 }
-                .workTwo_desc{
+                .workTwodesc{
                     width: 75% !important;
                     margin-right: -7.6rem !important;
                     span {
@@ -173,15 +173,15 @@
     }
 
     @media only screen and (max-width:600px){
-        .work_two{
+        .worktwo{
             display: block;
             margin-top: -11rem;
             margin-right: 20rem;
-            .workTwo_right{
+            .workTworight{
                 width: 100%;
-                .workTwo_pictures{
+                .workTwopictures{
                     margin-left: 1rem !important;
-                    .pic_two{
+                    .pictwo{
                         float: right;
                         margin-top: 6rem;
                         background-position-x: 67rem;
@@ -190,13 +190,13 @@
                         width: 109rem;
                         background: none;
                     }
-                    .two_two{
+                    .twotwo{
                         height: 20rem !important;
                         margin-top: 15rem;
                         margin-left: -16rem !important;
                     }
                 }
-                .workTwo_desc{
+                .workTwodesc{
                     width: 100% !important;
                     margin-top: -4rem;
                     margin-right: 16rem !important;

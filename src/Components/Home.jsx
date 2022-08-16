@@ -1,22 +1,23 @@
 import React from 'react';
 import Header from "./Header/Header";
 import Body from './Body/Body';
+import Footer from './Footer/Footer';
 import styles from "./Home.module.scss";
 
 function Home() {
   return (
     <div className={styles.container} >
-        <div className={styles.Header} >
-            <Header/>
-        </div>
-     <div className={styles.main_body} >
+      <header className={styles.Header} >
+        <Header/>
+      </header>
+      <section className={styles.main_body} >
         <Body/>
+      </section>
+      <footer className={styles.footer} >
+        <Footer/>
+      </footer>
     </div>
-   {/* <div className={styles.footer} >
-      <Footer/>
-    </div> */}
-</div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;

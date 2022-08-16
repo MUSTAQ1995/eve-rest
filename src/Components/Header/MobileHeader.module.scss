@@ -1,0 +1,30 @@
+@media only screen and (max-width:600px) {
+    .showmenu{
+        position: absolute;
+        height: 77rem;
+        width: 77rem ;
+        background-color: #F5F8FF;
+        border-bottom: 1px solid lightgrey;
+        .close{
+            float: right;
+            margin-top: 2rem ;
+            margin-right: 1rem ;
+            cursor: pointer;
+            img {
+                height: 4rem;
+            }
+        }
+        .mobilelist{
+            list-style: none;
+            height: 77rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            margin-left: 35%;
+            h5 {
+                font-size:4rem;
+                cursor: pointer;
+            }
+        }
+    }
+}

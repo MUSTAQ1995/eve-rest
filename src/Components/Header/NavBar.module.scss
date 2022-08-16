@@ -1,0 +1,78 @@
+.container{
+    width: 100%;
+    margin-top: -12px;
+    .topbar{
+        height: 0.4rem;
+        img {
+            width: 100%;
+        }
+    }
+    .navbar{
+        display: flex;
+        align-items: center;
+        height: 6rem;
+        margin-top: 0.5rem;
+        
+        .logo{
+            flex: 0.45;
+            
+            img {
+                margin-left: 7rem;
+            }
+        }
+
+        .navbarmenu {
+            flex: 0.55;
+            display: flex;
+            .menudetails{
+                list-style: none;
+                flex: 0.8;
+                display: flex;
+                height: 2rem;
+                justify-content: space-evenly;
+                letter-spacing: 2px;
+                line-height: 2rem;
+                text-align: center;
+            }
+            .login{
+                height: 2rem;
+                line-height: 2rem;
+                text-align: center;
+                border: 2px solid #4a4a4a;
+                border-radius: 30px;
+                flex: 0.15;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width:1024px){
+    .container{
+        width: 77rem;
+        background: #FFFFFF;
+    }
+}
+
+@media only screen and (max-width:768px){
+    .container{
+        width: 77rem;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    .container{
+        width: 76.8rem ;
+        background-color: #FFFFFF;
+        height: 11rem ;
+    }
+    .topbar{
+        height: 0.4rem;
+        margin-bottom: 3rem;
+        img {
+            width: 100%;
+        }
+    }
+    .navbar{
+        display: none !important;
+    }
+}

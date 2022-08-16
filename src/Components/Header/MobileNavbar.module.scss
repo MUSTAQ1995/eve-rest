@@ -1,0 +1,28 @@
+.mobilenavbar{
+    display: none;
+};
+
+@media only screen and (max-width:600px) {
+    .mobilenavbar{
+        display: flex !important;
+        justify-content: space-between;
+        margin-left: 2rem;
+        margin-top: 4rem;
+        height: 4rem;
+        align-items: center;
+        margin-right: 2rem;
+        margin-bottom: 3rem;
+        background-color: #FFFFFF;
+
+        .logomobile {
+            img {
+                height: 7rem;
+                margin-left: 6rem;
+            }
+        }
+        .mobilemenu{
+            margin-right: 9rem;
+            cursor: pointer;
+        }
+    }
+}

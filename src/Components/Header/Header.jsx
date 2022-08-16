@@ -13,55 +13,63 @@ function Header() {
   };
 
   const handleHideMenu = () => {
-    setMenu(true)
-  }
+    setMenu(true);
+  };
+
+  const listItems = [
+    { "name": "THIS MONTH" },
+    { "name": "SKIN" },
+    { "name": "HAIR" },
+    { "name": "BATH" },
+    { "name": "SALE" },
+  ]
+
   return (
     <>
     {menu ? (
       <header className={styles.container} >
-      <figure className={styles.top_bar} >
-        <img src={TopBar} alt={TopBar} />
-      </figure>
-      <div className={styles.nav_bar} >
-        <div className={styles.logo} >
-          <img src={Logo} alt={Logo} />
-        </div>
-        <div className={styles.navbar_menu} >
-          <div className={styles.menu_details}>
-            <h5>THIS MONTH</h5>
-            <h5>SKIN</h5>
-            <h5>HAIR</h5>
-            <h5>BATH</h5>
-            <h5>SALE</h5>
-          </div>
-          <div className={styles.log_in} >
-            <h5>LOG IN &gt; </h5>
-          </div>
-        </div>
-      </div>
-      <div className={styles.mobile_navbar} >
-        <div className={styles.logo_mobile}  >
-          <img src={Logo} alt={Logo}  />
-        </div>
-        <div className={styles.mobile_menu} onClick={() => handleShowMenu()} >
-          <img src={Menu} alt="Menu" />
-        </div>
-      </div>
-    </header>
+        <figure className={styles.top_bar} >
+          <img src={TopBar} alt={TopBar} />
+        </figure>
+        <nav className={styles.nav_bar} >
+          <figure className={styles.logo} >
+            <img src={Logo} alt={Logo} />
+          </figure>
+          <section className={styles.navbar_menu} >
+            <ul className={styles.menu_details}>
+              {listItems.map((list, index) => {
+                return(
+                  <li key={index}><h5>{list.name}</h5></li>
+                )
+              })}
+            </ul>
+            <div className={styles.log_in} >
+              <h5>LOG IN &gt; </h5>
+            </div>
+          </section>
+        </nav>
+        <nav className={styles.mobile_navbar} >
+          <figure className={styles.logo_mobile}  >
+            <img src={Logo} alt={Logo}  />
+          </figure>
+          <figure className={styles.mobile_menu} onClick={() => handleShowMenu()} >
+            <img src={Menu} alt="Menu" />
+          </figure>
+        </nav>
+      </header>
     ) : (
-      <div className={styles.show_menu} >
-          <div className={styles.close} onClick={() => handleHideMenu()} >
+      <nav className={styles.show_menu} >
+          <figure className={styles.close} onClick={() => handleHideMenu()} >
             <img src={Close} alt="Close"  />
-          </div>
-          <div className={styles.mobile_list} >
-            <h5>THIS MONTH</h5>
-            <h5>SKIN</h5>
-            <h5>HAIR</h5>
-            <h5>BATH</h5>
-            <h5>SALE</h5>
-            <h5>LOG IN &gt; </h5>
-          </div>
-      </div>
+          </figure>
+          <ul className={styles.mobile_list} >
+          {listItems.map((list, index) => {
+                return(
+                  <li key={index}><h5>{list.name}</h5></li>
+                )
+              })}
+          </ul>
+      </nav>
     )}
     
     </>

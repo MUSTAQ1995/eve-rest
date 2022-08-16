@@ -11,7 +11,7 @@ function Footer() {
       <figure className={styles.logo} >
         <img src={Logo} alt="UP Box"  />
       </figure>
-      <figure className={styles.social_media} >
+      <figure className={styles.socialmedia} >
         <img src={Instagram} alt="Instagram" className={styles.insta} />
         <img src={Fbook} alt="Facebook" className={styles.fbook} />
         <img src={Twitter} alt="Twitter" className={styles.twitter} />

@@ -7,10 +7,10 @@ import styles from "./Home.module.scss";
 function Home() {
   return (
     <div className={styles.container} >
-      <header className={styles.Header} >
+      <header className={styles.header} >
         <Header/>
       </header>
-      <section className={styles.main_body} >
+      <section className={styles.mainbody} >
         <Body/>
       </section>
       <footer className={styles.footer} >

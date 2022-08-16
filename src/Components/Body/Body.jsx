@@ -8,12 +8,12 @@ import Works from './Works/Works';
 function Body() {
   return (
     <div className={styles.container} >
-      <div className={styles.sign_up} >
+      <section className={styles.signup} >
         <SignUp />
-      </div>
-      <div className={styles.works} >
+      </section>
+      <section className={styles.works} >
         <Works/>
-      </div>
+      </section>
     </div>
   );
 };

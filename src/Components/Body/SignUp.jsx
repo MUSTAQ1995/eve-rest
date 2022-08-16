@@ -10,7 +10,7 @@ function SignUp() {
             <p>Upbox is the easiest way to look our best without having to hunt for the perfect makeup combination.
                 Our stylists curate the latest trends and send them directly to your door every month.
             </p>
-            <div className={styles.sign_up}>
+            <div className={styles.signup}>
                 <p>SIGN UP {">"}</p>
             </div>
         </section>

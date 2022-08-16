@@ -1,0 +1,264 @@
+.container{
+    background-color: #f5f8ff;
+    padding-top: 1rem;
+    display: flex;
+    height: 35.5rem;
+
+    .description{
+        margin-left: 7rem;
+        flex: 0.4;
+        margin-top: 4rem;
+        span {
+            width: 20rem;
+            font-size: 3rem;
+            font-weight: 500;
+        }
+        p {
+            margin-top: 1rem;
+            font-size: large;
+            font-weight: 500;
+        }
+        .sign_up{
+            margin-top: 2.5rem;
+            width: 37%;
+            height: 3.4rem;
+            text-align: center;
+            border: 4px solid #EF8094;
+            border-radius: 30px;
+            background-color: #FFFFFF;
+
+            p {
+                margin-top: 1rem;
+                letter-spacing: 1px;
+                font-weight: 500;
+            }
+        }
+    }
+
+    .product{
+        flex: 0.6;
+        margin-left: 15rem;
+        .box {
+            object-fit: cover;
+            height: 46rem;
+            width: 100%;
+            background: url("../../assets/pngs/box-art.png");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-size: 18rem;
+            background-position-x: 92%;
+            background-position-y: 1rem;
+        }
+    }
+}
+
+@media only screen and (max-width:1440px){
+    .container{
+        height: 27.8rem ;
+     
+        .product{
+            margin-left: 0 ;
+            .box {
+                object-fit: cover;
+                height: 35rem;
+                width: 100%;
+                background: url("../../assets/pngs/box-art.png");
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-size: 13rem;
+                background-position-x: 89% ;
+                background-position-y: 1rem ; 
+            }
+        }
+    }
+}
+
+
+@media only screen and (max-width:1366px) {
+    .container{
+        height: 27rem ;
+    }
+}
+
+@media only screen and (max-width:1301px) {
+    .container{
+        height: 26.55rem ;
+        .product{
+            margin-left: 0 ;
+            .box {
+                object-fit: cover;
+                height: 34rem;
+                background: url("../../assets/pngs/box-art.png");
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-size: 13rem;
+                background-position-x: 91% ;
+                background-position-y: 1rem ; 
+            }
+        }
+    }  
+}
+
+@media only screen and (max-width:1240px) {
+    .container{
+        height: 26.3rem ;
+
+        .product{
+            margin-left: 0 ;
+            .box {
+                object-fit: cover;
+                height: 34rem;
+                background: url("../../assets/pngs/box-art.png");
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-size: 13rem;
+                background-position-x: 100% ;
+                background-position-y: 1rem ; 
+            }
+        }
+    }  
+}
+
+@media only screen and (max-width:1176px) {
+    span{
+        font-size: 2rem !important;
+    }
+}
+
+@media only screen and (max-width:1132px) {
+.description{
+        span {
+            width: 20rem;
+            font-size: 2rem !important;
+            font-weight: 500;
+        }
+    }
+}
+
+@media only screen and (max-width:1024px) {
+    .container{
+        height: 38.55rem ;
+        width: 77rem ;
+        .description{
+            span {
+                font-size: 3rem ;
+                font-weight: 500 ;
+            }
+            p {
+                margin-top: 1rem;
+                font-size: large;
+                font-weight: 500;
+            }
+            .sign_up{
+             
+                width: 57% ;
+                p {
+                    margin-top: 1rem;
+                    letter-spacing: 1px;
+                    font-weight: 500;
+                }
+            }
+        }
+        .product{
+            margin-left: 0 ;
+            .box {
+                object-fit: cover;
+                height: 100%;
+                width: 100% !important;
+                margin-top: 9rem;
+                background: url("../../assets/pngs/box-art.png");
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-size: 13rem;
+                background-position-x: 100% ;
+                background-position-y: 2rem ;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .container{
+        height: 38.55rem ;
+        width: 77rem ;
+        .description{
+            span {
+                font-size: 2rem ;
+                font-weight: 500 ;
+            }
+            p {
+                margin-top: 1rem;
+                font-size: large;
+                font-weight: 500;
+            }
+            .sign_up{
+             
+                width: 57% ;
+                p {
+                    margin-top: 1rem;
+                    letter-spacing: 1px;
+                    font-weight: 500;
+                }
+            }
+        }
+        .product{
+            margin-left: 0 ;
+            .box {
+                object-fit: cover;
+                height: 100%;
+                width: 100%;
+                margin-top: 9rem;
+                background: url("../../assets/pngs/box-art.png");
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-size: 13rem;
+                background-position-x: 100% ;
+                background-position-y: 2rem ;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width:600px){
+    .container{
+        display: block;
+        height: 144rem ;
+        width: 77rem ;
+
+        .description{
+            margin-left: 7rem;
+            margin-top: 4rem;
+            span {
+                font-size: 8rem !important;
+                font-weight: 500;
+            }
+            p {
+                margin-top: 1rem;
+                font-size: 3rem ;
+                font-weight: 500;
+            }
+            .sign_up{
+                line-height: 5.4rem ;
+                margin-top: 4.5rem;
+                width: 44% ;
+                height: 8.4rem ;
+                text-align: center;
+                border: 10px solid #EF8094;
+                border-radius: 75px;
+                background-color: #FFFFFF;
+            }
+        }
+
+        .product{
+            margin-left: 0 ;
+            .box {
+                object-fit: cover;
+                height: 88rem ;
+                width: 79rem ;
+                margin-top: 9rem ;
+                margin-left: -2rem ;
+                background: none;
+            }
+        }
+    }
+}

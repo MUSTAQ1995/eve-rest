@@ -1,5 +1,6 @@
 import React from 'react';
-import Header from "../Components/Header/Header";
+import Header from "./Header/Header";
+import Body from './Body/Body';
 import styles from "./Home.module.scss";
 
 function Home() {
@@ -8,10 +9,10 @@ function Home() {
         <div className={styles.Header} >
             <Header/>
         </div>
-    {/* <div className={styles.main_body} >
+     <div className={styles.main_body} >
         <Body/>
     </div>
-    <div className={styles.footer} >
+   {/* <div className={styles.footer} >
       <Footer/>
     </div> */}
 </div>

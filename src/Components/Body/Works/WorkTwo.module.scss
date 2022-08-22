@@ -1,8 +1,9 @@
+@media screen and (max-width:1920px){
+
 .worktwo{
     margin-top: -11rem;
-    margin-right: 20rem;
+    // margin-right: 20rem;
     .workTworight{
-        width: 100%;
         .workTwopictures{
             .pictwo{
                 float: right;
@@ -10,19 +11,21 @@
                 background-size: cover;
                 background-repeat: no-repeat;
                 background-size: 18rem;
-                background-position-x: 34rem;
+                background-position-x: 72.5%;
                 margin-bottom: -15.5rem;
-                background-position-y: 10rem;
-                height: 40rem;
+                background-position-y: 37%;
+                width:81%;
             }
             .twotwo{
-                margin-left: 56.5rem
+                margin-left: 46%;
+                height: 10rem;
+                margin-top: -6.2rem;
             }
         }
         .workTwodesc{
-            width: 27%;
+            width: 35%;
             float: right;
-            margin-right: 6.4rem;
+            margin-right: 11%;
             margin-top: -4rem;
             span {
                 font-size: 2.5rem;
@@ -36,181 +39,209 @@
         }
     }
 }
+}
 
-@media only screen and (max-width:1600px) {
-    .worktwo{
-        margin-left: 9rem;
-        .workTworight{
-            width: 100%;
-            margin-left: 10rem;
-                .twotwo{           
-                    margin-left: 27.5rem !important;
-                }
-            .workTwodesc{
-                margin-right: 14.4rem !important;
+@media screen and (max-width:1700px) {
+    // .worktwo{
+    //     margin-left: 9rem;
+    //     .workTworight{
+    //         width: 100%;
+    //         margin-left: 10rem;
+    //             .twotwo{           
+    //                 margin-left: 27.5rem !important;
+    //             }
+    //         .workTwodesc{
+    //             margin-right: 14.4rem !important;
 
-                span {
-                    font-size: 2.5rem;
-                    font-weight: 500;
-                }
-                p{
-                    margin-top: 1rem;
-                    font-size: large;
-                    font-weight: 500;
-                }
-            }
-        }
+    //             span {
+    //                 font-size: 2.5rem;
+    //                 font-weight: 500;
+    //             }
+    //             p{
+    //                 margin-top: 1rem;
+    //                 font-size: large;
+    //                 font-weight: 500;
+    //             }
+    //         }
+    //     }
+    // }
+    .twotwo{
+        margin-left: 45.5% !important;
+        height: 10rem;
+        margin-top: -4.1rem !important;
     }
 };
 
 @media only screen  and (max-width:1500px) {
-    .worktwo{
-        margin-left: 9rem;
-        .workTworight{
-            width: 100%;
-            margin-left: 15rem !important;
-                .twotwo{           
-                    margin-left: 17.5rem !important;
-                }
-            .workTwodesc{
-                margin-right: 17.4rem !important;
+    // .worktwo{
+    //     margin-left: 9rem;
+    //     .workTworight{
+    //         width: 100%;
+    //         margin-left: 15rem !important;
+    //             .twotwo{           
+    //                 margin-left: 17.5rem !important;
+    //             }
+    //         .workTwodesc{
+    //             margin-right: 17.4rem !important;
 
-                span {
-                    font-size: 2.5rem;
-                    font-weight: 500;
-                }
-                p{
-                    margin-top: 1rem;
-                    font-size: large;
-                    font-weight: 500;
-                }
-            }
-        }
+    //             span {
+    //                 font-size: 2.5rem;
+    //                 font-weight: 500;
+    //             }
+    //             p{
+    //                 margin-top: 1rem;
+    //                 font-size: large;
+    //                 font-weight: 500;
+    //             }
+    //         }
+    //     }
+    // }
+    .twotwo{
+    margin-left: 45% !important;
+    height: 10rem;
+    margin-top: -2.1rem !important;
     }
 };
 
 @media only screen  and (max-width:1366px) {
-    .worktwo{
-        margin-left: 9rem;
-        .workTworight{
-            width: 100%;
-            margin-left: 15rem !important;
-                .twotwo{           
-                    margin-left: 13.5rem !important;
-                }
-            .workTwodesc{
-                margin-right: 18.4rem !important;
+//     .worktwo{
+//         margin-left: 9rem;
+//         .workTworight{
+//             width: 100%;
+//             margin-left: 15rem !important;
+//                 .twotwo{           
+//                     margin-left: 13.5rem !important;
+//                 }
+//             .workTwodesc{
+//                 margin-right: 18.4rem !important;
 
-                span {
-                    font-size: 2.5rem;
-                    font-weight: 500;
-                }
-                p{
-                    margin-top: 1rem;
-                    font-size: large;
-                    font-weight: 500;
-                }
-            }
-        }
-    }
+//                 span {
+//                     font-size: 2.5rem;
+//                     font-weight: 500;
+//                 }
+//                 p{
+//                     margin-top: 1rem;
+//                     font-size: large;
+//                     font-weight: 500;
+//                 }
+//             }
+//         }
+//     }
+.twotwo{           
+    margin-top: -0.5rem !important;
+}
+.workTwodesc{
+                    margin-right: 9% !important;
+}
 };
+
+@media only screen and (max-width:1250px){
+    .twotwo{           
+        margin-top: 1rem !important;
+        margin-left: 44% !important;
+    }
+}
 
 @media only screen and (max-width:1024px) {
-    .worktwo {
-        .workTworight{
-            .workTwopictures{
-                .pictwo{
-                    margin-right: -12rem !important;
+    // .worktwo {
+    //     .workTworight{
+    //         .workTwopictures{
+    //             .pictwo{
+    //                 margin-right: -12rem !important;
                   
-                }
-                .twotwo{
-                    margin-left: 3.5rem !important;
-                }
-            }
-            .workTwodesc{
-                width: 75% !important;
-                margin-right: -3.6rem !important;
-                span {
-                    font-size: 2.5rem;
-                    font-weight: 500;
-                }
-                p{
-                    margin-top: 1rem;
-                    font-size: large;
-                    font-weight: 500;
-                }
-            }
-        }
+    //             }
+    //             .twotwo{
+    //                 margin-left: 3.5rem !important;
+    //             }
+    //         }
+    //         .workTwodesc{
+    //             width: 75% !important;
+    //             margin-right: -3.6rem !important;
+    //             span {
+    //                 font-size: 2.5rem;
+    //                 font-weight: 500;
+    //             }
+    //             p{
+    //                 margin-top: 1rem;
+    //                 font-size: large;
+    //                 font-weight: 500;
+    //             }
+    //         }
+    //     }
+    // }
+    .twotwo{           
+        margin-top: 3rem !important;
+        margin-left: 43% !important;
     }
 };
 
-@media only screen and (max-width:768px){
-        .worktwo {
-            .workTworight{
-                .workTwopictures{
-                    .pictwo{
-                        margin-right: -12rem !important;
-                    }
-                    .twotwo{
-                        margin-left: 9.5rem !important;
-                    }
-                }
-                .workTwodesc{
-                    width: 75% !important;
-                    margin-right: -7.6rem !important;
-                    span {
-                        font-size: 2.5rem;
-                        font-weight: 500;
-                    }
-                    p{
-                        margin-top: 1rem;
-                        font-size: large;
-                        font-weight: 500;
-                    }
-                }
-            }
-        }
-    }
+// @media only screen and (max-width:768px){
+//         .worktwo {
+//             .workTworight{
+//                 .workTwopictures{
+//                     .pictwo{
+//                         margin-right: -12rem !important;
+//                     }
+//                     .twotwo{
+//                         margin-left: 9.5rem !important;
+//                     }
+//                 }
+//                 .workTwodesc{
+//                     width: 75% !important;
+//                     margin-right: -7.6rem !important;
+//                     span {
+//                         font-size: 2.5rem;
+//                         font-weight: 500;
+//                     }
+//                     p{
+//                         margin-top: 1rem;
+//                         font-size: large;
+//                         font-weight: 500;
+//                     }
+//                 }
+//             } 
+//         }
+//     }
 
-    @media only screen and (max-width:600px){
-        .worktwo{
-            display: block;
-            margin-top: -11rem;
-            margin-right: 20rem;
-            .workTworight{
-                width: 100%;
-                .workTwopictures{
-                    margin-left: 1rem !important;
-                    .pictwo{
-                        float: right;
-                        margin-top: 6rem;
-                        background-position-x: 67rem;
-                        background-position-y: 25rem;
-                        height: 86rem;
-                        width: 109rem;
-                        background: none;
-                    }
-                    .twotwo{
-                        height: 20rem !important;
-                        margin-top: 15rem;
-                        margin-left: -16rem !important;
-                    }
-                }
-                .workTwodesc{
-                    width: 100% !important;
-                    margin-top: -4rem;
-                    margin-right: 16rem !important;
-                    span {
-                        font-size: 7rem !important;
-                        font-weight: 500 !important;
-                    }
-                    p{
-                        margin-top: 1rem;
-                        font-size: 3rem;
-                        width: 50rem;
-                        font-weight: 500;
-                    }
-                }
-            }
-        }
-    }
+    // @media only screen and (max-width:600px){
+    //     .worktwo{
+    //         display: block;
+    //         margin-top: -11rem;
+    //         margin-right: 20rem;
+    //         .workTworight{
+    //             width: 100%;
+    //             .workTwopictures{
+    //                 margin-left: 1rem !important;
+    //                 .pictwo{
+    //                     float: right;
+    //                     margin-top: 6rem;
+    //                     background-position-x: 67rem;
+    //                     background-position-y: 25rem;
+    //                     height: 86rem;
+    //                     width: 109rem;
+    //                     background: none;
+    //                 }
+    //                 .twotwo{
+    //                     height: 20rem !important;
+    //                     margin-top: 15rem;
+    //                     margin-left: -16rem !important;
+    //                 }
+    //             }
+    //             .workTwodesc{
+    //                 width: 100% !important;
+    //                 margin-top: -4rem;
+    //                 margin-right: 16rem !important;
+    //                 span {
+    //                     font-size: 7rem !important;
+    //                     font-weight: 500 !important;
+    //                 }
+    //                 p{
+    //                     margin-top: 1rem;
+    //                     font-size: 3rem;
+    //                     width: 50rem;
+    //                     font-weight: 500;
+    //                 }
+    //             }
+    //         }
+    //     }
+    // }

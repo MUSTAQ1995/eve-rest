@@ -1,8 +1,7 @@
 import React from 'react';
-import styles from "./Body.module.scss";
 import SignUp from './SignUp';
 import Works from './Works/Works';
-// import Works from './Works';
+import styles from "./Body.module.scss";
 
 
 function Body() {

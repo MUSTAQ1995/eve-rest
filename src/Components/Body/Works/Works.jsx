@@ -11,10 +11,10 @@ function Works() {
   return (
     <div className={styles.container} >
       <Working/>
-      <WorkOne/>
+       <WorkOne/>
       <WorkTwo/>
-      <WorkThree/>
-      <Try/>
+      {/*<WorkThree/>
+      <Try/> */}
     </div>
   )
 }

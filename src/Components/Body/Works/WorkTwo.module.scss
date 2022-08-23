@@ -1,45 +1,42 @@
-@media screen and (max-width:1920px){
 
 .worktwo{
-    margin-top: -11rem;
-    // margin-right: 20rem;
+    margin-top: -20rem;
     .workTworight{
         .workTwopictures{
             .pictwo{
                 float: right;
                 background: url("../../../assets/pngs/work2-art.png");
-                background-size: cover;
                 background-repeat: no-repeat;
-                background-size: 18rem;
+                background-size: 35rem;
                 background-position-x: 72.5%;
                 margin-bottom: -15.5rem;
                 background-position-y: 37%;
                 width:81%;
             }
             .twotwo{
-                margin-left: 46%;
-                height: 10rem;
-                margin-top: -6.2rem;
+                margin-left: 43.9%;
+                height: 20rem;
+                margin-top: -17.6rem;
             }
         }
         .workTwodesc{
             width: 35%;
             float: right;
-            margin-right: 11%;
+            margin-right: 10%;
             margin-top: -4rem;
             span {
-                font-size: 2.5rem;
+                font-size: 4rem;
                 font-weight: 500;
             }
             p{
                 margin-top: 1rem;
-                font-size: large;
+                font-size: 2rem;
                 font-weight: 500;
             }
         }
     }
 }
-}
+
 
 @media screen and (max-width:1700px) {
     // .worktwo{
@@ -65,11 +62,11 @@
     //         }
     //     }
     // }
-    .twotwo{
-        margin-left: 45.5% !important;
-        height: 10rem;
-        margin-top: -4.1rem !important;
-    }
+    // .twotwo{
+    //     margin-left: 45.5% !important;
+    //     height: 10rem;
+    //     margin-top: -4.1rem !important;
+    // }
 };
 
 @media only screen  and (max-width:1500px) {
@@ -96,11 +93,11 @@
     //         }
     //     }
     // }
-    .twotwo{
-    margin-left: 45% !important;
-    height: 10rem;
-    margin-top: -2.1rem !important;
-    }
+    // .twotwo{
+    // margin-left: 45% !important;
+    // height: 10rem;
+    // margin-top: -2.1rem !important;
+    // }
 };
 
 @media only screen  and (max-width:1366px) {
@@ -127,20 +124,20 @@
 //             }
 //         }
 //     }
-.twotwo{           
-    margin-top: -0.5rem !important;
-}
-.workTwodesc{
-                    margin-right: 9% !important;
-}
+// .twotwo{           
+//     margin-top: -0.5rem !important;
+// }
+// .workTwodesc{
+//                     margin-right: 9% !important;
+// }
 };
 
-@media only screen and (max-width:1250px){
-    .twotwo{           
-        margin-top: 1rem !important;
-        margin-left: 44% !important;
-    }
-}
+// @media only screen and (max-width:1250px){
+//     .twotwo{           
+//         margin-top: 1rem !important;
+//         margin-left: 44% !important;
+//     }
+// }
 
 @media only screen and (max-width:1024px) {
     // .worktwo {
@@ -169,10 +166,10 @@
     //         }
     //     }
     // }
-    .twotwo{           
-        margin-top: 3rem !important;
-        margin-left: 43% !important;
-    }
+    // .twotwo{           
+    //     margin-top: 3rem !important;
+    //     margin-left: 43% !important;
+    // }
 };
 
 // @media only screen and (max-width:768px){

@@ -10,9 +10,9 @@ function Body() {
       <section className={styles.signup} >
         <SignUp />
       </section>
-      <section className={styles.works} >
+      {/* <section className={styles.works} >
         <Works/>
-      </section>
+      </section> */}
     </div>
   );
 };

@@ -11,28 +11,28 @@ function NavBar({
 }) {
   return (
     <header className={styles.container} >
-    <figure className={styles.topbar} >
-      <img src={TopBar} alt={TopBar} />
-    </figure>
-    <nav className={styles.navbar} >
-      <figure className={styles.logo} >
-        <img src={Logo} alt={Logo} />
+      <figure className={styles.topbar} >
+        <img src={TopBar} alt={TopBar} />
       </figure>
-      <section className={styles.navbarmenu} >
-        <ul className={styles.menudetails}>
-          {listItems.map((list, index) => {
-            return(
-              <li key={index}><h5>{list.name}</h5></li>
-            )
-          })}
-        </ul>
-        <div className={styles.login} >
-          <h5>LOG IN &gt; </h5>
-        </div>
-      </section>
-    </nav>
-    <MobileNavBar handleShowMenu={handleShowMenu} />
-  </header>
+      <nav className={styles.navbar} >
+        <figure className={styles.logo} >
+          <img src={Logo} alt={Logo} />
+        </figure>
+        <section className={styles.navbarmenu} >
+          <ul className={styles.menudetails}>
+            {listItems.map((list, index) => {
+              return(
+                <li key={index}><h1>{list.name}</h1></li>
+              )
+            })}
+          </ul>
+          <div className={styles.login} >
+            <h1>LOG IN &gt; </h1>
+          </div>
+        </section>
+      </nav>
+      <MobileNavBar handleShowMenu={handleShowMenu} />
+    </header>
   )
 }
 

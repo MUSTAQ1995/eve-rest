@@ -13,9 +13,9 @@ function Home() {
       <section className={styles.mainbody} >
         <Body/>
       </section>
-      <footer className={styles.footer} >
+      {/* <footer className={styles.footer} >
         <Footer/>
-      </footer>
+      </footer> */}
     </div>
   );
 };

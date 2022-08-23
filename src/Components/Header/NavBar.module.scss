@@ -1,6 +1,6 @@
 .container{
     width: 100%;
-    margin-top: -12px;
+  
     .topbar{
         height: 0.4rem;
         img {
@@ -10,8 +10,8 @@
     .navbar{
         display: flex;
         align-items: center;
-        height: 6rem;
-        margin-top: 0.5rem;
+        height: 9rem;
+        margin-top: 1.5rem;
         
         .logo{
             flex: 0.45;
@@ -28,15 +28,19 @@
                 list-style: none;
                 flex: 0.8;
                 display: flex;
-                height: 2rem;
+                height: 4rem;
                 justify-content: space-evenly;
                 letter-spacing: 2px;
-                line-height: 2rem;
+                line-height: 4rem;
                 text-align: center;
+
+                li{
+                    font-size: 1.5rem;
+                }
             }
             .login{
-                height: 2rem;
-                line-height: 2rem;
+                height: 4rem;
+                line-height: 4rem;
                 text-align: center;
                 border: 2px solid #4a4a4a;
                 border-radius: 30px;

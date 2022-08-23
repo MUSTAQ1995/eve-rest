@@ -1,80 +1,81 @@
 .workthree{
-    margin-top: 15rem;
     display: flex;
-    height: 30rem;
+    width: 100%;
+    height: 100%;
+    margin-top: 30rem;
     .workthreepictures{
         flex: 0.5;
         
         .picthree{
             float: right;
-            height: 25rem;
-            margin-bottom: -14rem;
+            margin-bottom: -27rem;
+            
         }
         .threethree{
-            margin-left: 39.6rem;
-            margin-top: -10rem;
+            margin-left: 57%;
+            margin-top: -15rem;
         }
     }
     .descthree{
         flex: 0.4;
         margin-top: 2rem;
-        margin-left: 2rem;
+        margin-left: 5rem;
         span {
-            font-size: 2.5rem;
+            font-size: 5rem;
             font-weight: 500;
         }
         p{
             width: 80%;
             margin-top: 1rem;
-            font-size: large;
+            font-size: 2rem;
             font-weight: 500;
         }
     }
 };
 
-@media only screen and (max-width:1600px) {
-    .threethree{
-        margin-left: 29.6rem !important;
-    }
-};
+// @media only screen and (max-width:1600px) {
+//     .threethree{
+//         margin-left: 29.6rem !important;
+//     }
+// };
 
-@media only screen  and (max-width:1500px) {
-    .threethree{
-        margin-left: 24.6rem !important;
-    }
-};
+// @media only screen  and (max-width:1500px) {
+//     .threethree{
+//         margin-left: 24.6rem !important;
+//     }
+// };
 
-@media only screen  and (max-width:1366px) {
-    .threethree{
-        margin-left: 22rem !important;
-    }
-};
+// @media only screen  and (max-width:1366px) {
+//     .threethree{
+//         margin-left: 22rem !important;
+//     }
+// };
 
-@media only screen and (max-width:1024px) {
-    .workthree{
-        .workthreepictures{
-            .threethree{
-                margin-left: 11.6rem !important;
-                margin-top: -10rem;
-            }
-        }
-        .descthree{
-            flex: 0.4;
-            margin-top: 2rem;
-            margin-left: 2rem;
-            span {
-                font-size: 2.5rem;
-                font-weight: 500;
-            }
-            p{
-                width: 100%;
-                margin-top: 1rem;
-                font-size: large;
-                font-weight: 500;
-            }
-        }
-    }
-};
+// @media only screen and (max-width:1024px) {
+//     .workthree{
+//         .workthreepictures{
+//             .threethree{
+//                 margin-left: 11.6rem !important;
+//                 margin-top: -10rem;
+//             }
+//         }
+//         .descthree{
+//             flex: 0.4;
+//             margin-top: 2rem;
+//             margin-left: 2rem;
+//             span {
+//                 font-size: 2.5rem;
+//                 font-weight: 500;
+//             }
+//             p{
+//                 width: 100%;
+//                 margin-top: 1rem;
+//                 font-size: large;
+//                 font-weight: 500;
+//             }
+//         }
+//     }
+// };
 
 @media only screen and (max-width:768px){
     .workthree{

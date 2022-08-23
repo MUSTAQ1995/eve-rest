@@ -1,27 +1,32 @@
 .container{
     border: 2px solid whitesmoke;
-    margin: 5rem 1rem 1rem 1rem ;
+    margin: 10rem 2rem 2rem 2rem ;
     display: flex;
     justify-content: space-between;
-    height: 7rem;
+    height: 10rem;
     align-items: center;
     background-color: #FAFAFA;
 
     .logo{
         margin-left: 6rem;
-        height: 2.5rem;
+        // height: 2.5rem;
         
         img {
             object-fit: cover;
-            height: 2.5rem;
+            height: 5rem;
             width: 100%;
         }
     }
 
     .socialmedia{
-        width: 11rem;
+        width: 15%;
         display: flex;
         justify-content: space-around;
+        margin-right: 8rem;
+        img {
+            margin-right: 1rem;
+            height: 5rem;
+        }
     }
 }
 

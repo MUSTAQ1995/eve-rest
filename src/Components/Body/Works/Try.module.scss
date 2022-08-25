@@ -15,6 +15,11 @@
     }
 }
 
+@media only screen and (max-width:1101px){
+    .tryit{
+        width:30%
+    }
+} 
 @media only screen and (max-width:600px){
     .tryit {
         border: 8px solid #EF8094;

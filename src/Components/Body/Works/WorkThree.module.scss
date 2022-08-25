@@ -94,6 +94,16 @@
     }
 };
 
+@media only screen and (max-width:1101px) {
+    .workthree{
+        .workthreepictures{
+            .threethree{
+                margin-left: 40%;
+            }
+        }
+    }
+};
+
 @media only screen and (max-width:1024px) {
     .workthree{
         .workthreepictures{
@@ -103,6 +113,27 @@
         }
     }
 };
+
+@media only screen and (max-width:902px) {
+    .workthree{
+        .workthreepictures{
+            .threethree{
+                margin-left: 26%;
+            }
+        }
+    }
+};
+
+@media only screen and (max-width:768px) {
+    .workthree{
+        .workthreepictures{
+            .threethree{
+                margin-left: 12%;
+            }
+        }
+    }
+};
+
 
 
 

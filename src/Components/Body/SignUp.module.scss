@@ -1,7 +1,6 @@
 .container{
     background-color: #f5f8ff;
     display: flex;
-    
     height: 70rem;
 
     .description{
@@ -61,32 +60,6 @@
     }
 }
 
-
-// @media only screen and (max-width:1366px) {
-//     .container{
-//         height: 27rem ;
-//     }
-// }
-
-// @media only screen and (max-width:1301px) {
-//     .container{
-//         height: 26.55rem ;
-//         .product{
-//             margin-left: 0 ;
-//             .box {
-//                 object-fit: cover;
-//                 height: 34rem;
-//                 background: url("../../assets/pngs/box-art.png");
-//                 background-size: cover;
-//                 background-repeat: no-repeat;
-//                 background-size: 13rem;
-//                 background-position-x: 91% ;
-//                 background-position-y: 1rem ; 
-//             }
-//         }
-//     }  
-// }
-
 @media only screen and (max-width:1250px) {
     .container{
         .product{
@@ -97,106 +70,32 @@
     }  
 }
 
-// @media only screen and (max-width:1176px) {
-//     span{
-//         font-size: 2rem !important;
-//     }
-// }
 
-// @media only screen and (max-width:1132px) {
-// .description{
-//         span {
-//             width: 20rem;
-//             font-size: 2rem !important;
-//             font-weight: 500;
-//         }
-//     }
-// }
-
-// @media only screen and (max-width:1024px) {
-//     .container{
-//         height: 38.55rem ;
-//         width: 77rem ;
-//         .description{
-//             span {
-//                 font-size: 3rem ;
-//                 font-weight: 500 ;
-//             }
-//             p {
-//                 margin-top: 1rem;
-//                 font-size: large;
-//                 font-weight: 500;
-//             }
-//             .signup{
-             
-//                 width: 57% ;
-//                 p {
-//                     margin-top: 1rem;
-//                     letter-spacing: 1px;
-//                     font-weight: 500;
-//                 }
-//             }
-//         }
-//         .product{
-//             margin-left: 0 ;
-//             .box {
-//                 object-fit: cover;
-//                 height: 100%;
-//                 width: 100% !important;
-//                 margin-top: 9rem;
-//                 background: url("../../assets/pngs/box-art.png");
-//                 background-size: cover;
-//                 background-repeat: no-repeat;
-//                 background-size: 13rem;
-//                 background-position-x: 100% ;
-//                 background-position-y: 2rem ;
-//             }
-//         }
-//     }
-// }
-
-// @media only screen and (max-width:768px) {
-//     .container{
-//         height: 38.55rem ;
-//         width: 77rem ;
-//         .description{
-//             span {
-//                 font-size: 2rem ;
-//                 font-weight: 500 ;
-//             }
-//             p {
-//                 margin-top: 1rem;
-//                 font-size: large;
-//                 font-weight: 500;
-//             }
-//             .signup{
-             
-//                 width: 57% ;
-//                 p {
-//                     margin-top: 1rem;
-//                     letter-spacing: 1px;
-//                     font-weight: 500;
-//                 }
-//             }
-//         }
-//         .product{
-//             margin-left: 0 ;
-//             .box {
-//                 object-fit: cover;
-//                 height: 100%;
-//                 width: 100%;
-//                 margin-top: 9rem;
-//                 background: url("../../assets/pngs/box-art.png");
-//                 background-size: cover;
-//                 background-repeat: no-repeat;
-//                 background-size: 13rem;
-//                 background-position-x: 100% ;
-//                 background-position-y: 2rem ;
-//             }
-//         }
-//     }
-// }
-
+@media only screen and (max-width:901px) {
+    .container{
+        .description{
+            span {
+                font-size: 4rem ;
+                font-weight: 500 ;
+            }
+            .signup{
+                width: 60% ;
+            }
+        }
+        .product{
+            .box {
+                background-position-x: 98%;
+            }
+        }
+    }
+}
+@media only screen and (max-width:768px) {
+    .container{
+        .description{
+            margin-left: 5rem;
+        }
+    }
+}
 @media only screen and (max-width:600px){
     .container{
         display: block;

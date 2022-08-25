@@ -1,6 +1,5 @@
 .container{
     width: 100%;
-  
     .topbar{
         height: 0.4rem;
         img {
@@ -45,23 +44,56 @@
                 border: 2.5px solid #4a4a4a;
                 border-radius: 30px;
                 flex: 0.15;
+
+                h1 {
+                    font-size: 1.5rem;
+                }
             }
         }
     }
 }
 
-// @media only screen and (max-width:1024px){
-//     .container{
-//         width: 77rem;
-//         background: #FFFFFF;
-//     }
-// }
 
-// @media only screen and (max-width:768px){
-//     .container{
-//         width: 77rem;
-//     }
-// }
+@media only screen and (max-width:900px){
+    .container{
+        .navbar{    
+            .navbarmenu {
+                flex: 0.6;
+            }
+        }
+    }
+}
+@media only screen and (max-width:768px){
+    .container{
+        .navbar{
+            .logo{
+                img {
+                    margin-left: 5rem;
+                }
+            }
+    
+            .navbarmenu {
+                flex: 1;
+                .menudetails{   
+                    letter-spacing: 1px; 
+                    li{
+                        margin-right: 1rem;
+                    }
+                }
+                .login{
+                    height: 3rem;
+                    line-height: 3rem;
+                    flex: 0.2;
+    
+                    h1 {
+                        font-size: 1.5rem;
+                    }
+                }
+
+            }
+        }
+    }
+}
 
 @media only screen and (max-width:600px) {
     .container{

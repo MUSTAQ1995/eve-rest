@@ -131,41 +131,46 @@
                     margin-top: -1rem;
                     margin-left: 41.5%;
                 }
-                .workTwodesc{
-                    margin-right: 9%;
+            }
+            .workTwodesc{
+                margin-right: 9%;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width:902px) {
+    .worktwo{
+        .workTworight{
+            .workTwopictures{
+                .twotwo{
+                    margin-top: 1.5rem;
+                    margin-left: 40.5%;
                 }
             }
         }
     }
 }
 
-// @media only screen and (max-width:768px){
-//         .worktwo {
-//             .workTworight{
-//                 .workTwopictures{
-//                     .pictwo{
-//                         margin-right: -12rem !important;
-//                     }
-//                     .twotwo{
-//                         margin-left: 9.5rem !important;
-//                     }
-//                 }
-//                 .workTwodesc{
-//                     width: 75% !important;
-//                     margin-right: -7.6rem !important;
-//                     span {
-//                         font-size: 2.5rem;
-//                         font-weight: 500;
-//                     }
-//                     p{
-//                         margin-top: 1rem;
-//                         font-size: large;
-//                         font-weight: 500;
-//                     }
-//                 }
-//             } 
-//         }
-//     }
+@media only screen and (max-width:768px){
+        .worktwo {
+            .workTworight{
+                .workTwopictures{
+                    .pictwo{
+                        height: 80rem;
+                        background-size: 35rem;
+                    }
+                    .twotwo{
+                        margin-top: -7.5rem !important;
+                        margin-left: 39.5%;
+                    }
+                }
+                .workTwodesc{
+                   margin-right: 7%;
+                }
+            } 
+        }
+    }
 
     // @media only screen and (max-width:600px){
     //     .worktwo{

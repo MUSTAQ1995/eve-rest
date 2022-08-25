@@ -9,12 +9,12 @@
                 background-repeat: no-repeat;
                 background-size: 35rem;
                 background-position-x: 72.5%;
-                margin-bottom: -15.5rem;
+                margin-bottom: -23.5rem;
                 background-position-y: 37%;
                 width:81%;
             }
             .twotwo{
-                margin-left: 43.9%;
+                margin-left: 45%;
                 height: 20rem;
                 margin-top: -17.6rem;
             }
@@ -22,7 +22,7 @@
         .workTwodesc{
             width: 35%;
             float: right;
-            margin-right: 10%;
+            margin-right: 11%;
             margin-top: -4rem;
             span {
                 font-size: 4rem;
@@ -38,139 +38,106 @@
 }
 
 
-@media screen and (max-width:1700px) {
-    // .worktwo{
-    //     margin-left: 9rem;
-    //     .workTworight{
-    //         width: 100%;
-    //         margin-left: 10rem;
-    //             .twotwo{           
-    //                 margin-left: 27.5rem !important;
-    //             }
-    //         .workTwodesc{
-    //             margin-right: 14.4rem !important;
-
-    //             span {
-    //                 font-size: 2.5rem;
-    //                 font-weight: 500;
-    //             }
-    //             p{
-    //                 margin-top: 1rem;
-    //                 font-size: large;
-    //                 font-weight: 500;
-    //             }
-    //         }
-    //     }
-    // }
-    // .twotwo{
-    //     margin-left: 45.5% !important;
-    //     height: 10rem;
-    //     margin-top: -4.1rem !important;
-    // }
+@media screen and (max-width:1800px) {
+    .worktwo{
+        .workTworight{
+            .workTwopictures{
+                .twotwo{
+                    margin-top: -15.6rem;
+                }
+            }
+            
+        }
+    }
+    
 };
 
-@media only screen  and (max-width:1500px) {
-    // .worktwo{
-    //     margin-left: 9rem;
-    //     .workTworight{
-    //         width: 100%;
-    //         margin-left: 15rem !important;
-    //             .twotwo{           
-    //                 margin-left: 17.5rem !important;
-    //             }
-    //         .workTwodesc{
-    //             margin-right: 17.4rem !important;
+@media screen and (max-width:1600px) {
+    .worktwo{
+        .workTworight{
+            .workTwopictures{
+                .twotwo{
+                    margin-top: -12.6rem;
+                    margin-left: 44.5%;
+                }
+            }
+            
+        }
+    }
+    
+};
 
-    //             span {
-    //                 font-size: 2.5rem;
-    //                 font-weight: 500;
-    //             }
-    //             p{
-    //                 margin-top: 1rem;
-    //                 font-size: large;
-    //                 font-weight: 500;
-    //             }
-    //         }
-    //     }
-    // }
-    // .twotwo{
-    // margin-left: 45% !important;
-    // height: 10rem;
-    // margin-top: -2.1rem !important;
-    // }
+@media only screen  and (max-width:1440px) {
+    .worktwo{
+        .workTworight{
+            .workTwopictures{
+                .twotwo{
+                    margin-top: -9rem;
+                    margin-left: 43.8%;
+                }
+            }
+            
+        }
+    }
 };
 
 @media only screen  and (max-width:1366px) {
-//     .worktwo{
-//         margin-left: 9rem;
-//         .workTworight{
-//             width: 100%;
-//             margin-left: 15rem !important;
-//                 .twotwo{           
-//                     margin-left: 13.5rem !important;
-//                 }
-//             .workTwodesc{
-//                 margin-right: 18.4rem !important;
-
-//                 span {
-//                     font-size: 2.5rem;
-//                     font-weight: 500;
-//                 }
-//                 p{
-//                     margin-top: 1rem;
-//                     font-size: large;
-//                     font-weight: 500;
-//                 }
-//             }
-//         }
-//     }
-// .twotwo{           
-//     margin-top: -0.5rem !important;
-// }
-// .workTwodesc{
-//                     margin-right: 9% !important;
-// }
+    .worktwo{
+        .workTworight{
+            .workTwopictures{
+                .twotwo{
+                    margin-top: -7rem;
+                }
+            }
+            
+        }
+    }
 };
 
-// @media only screen and (max-width:1250px){
-//     .twotwo{           
-//         margin-top: 1rem !important;
-//         margin-left: 44% !important;
-//     }
-// }
+@media only screen  and (max-width:1250px) {
+    .worktwo{
+        .workTworight{
+            .workTwopictures{
+                .twotwo{
+                    margin-top: -5rem;
+                    margin-left: 43%;
+                }
+            }
+            
+        }
+    }
+};
+
+
+
+@media only screen and (max-width:1200px){
+    .worktwo{
+        .workTworight{
+            .workTwopictures{
+                .twotwo{
+                    margin-top: -4rem;
+                    margin-left: 42.5%;
+                }
+            }
+        }
+    }
+}
 
 @media only screen and (max-width:1024px) {
-    // .worktwo {
-    //     .workTworight{
-    //         .workTwopictures{
-    //             .pictwo{
-    //                 margin-right: -12rem !important;
-                  
-    //             }
-    //             .twotwo{
-    //                 margin-left: 3.5rem !important;
-    //             }
-    //         }
-    //         .workTwodesc{
-    //             width: 75% !important;
-    //             margin-right: -3.6rem !important;
-    //             span {
-    //                 font-size: 2.5rem;
-    //                 font-weight: 500;
-    //             }
-    //             p{
-    //                 margin-top: 1rem;
-    //                 font-size: large;
-    //                 font-weight: 500;
-    //             }
-    //         }
-    //     }
-    // }
-    // .twotwo{           
-    //     margin-top: 3rem !important;
-    //     margin-left: 43% !important;
-    // }
-};
+    .worktwo{
+        .workTworight{
+            .workTwopictures{
+                .twotwo{
+                    margin-top: -1rem;
+                    margin-left: 41.5%;
+                }
+                .workTwodesc{
+                    margin-right: 9%;
+                }
+            }
+        }
+    }
+}
 
 // @media only screen and (max-width:768px){
 //         .worktwo {

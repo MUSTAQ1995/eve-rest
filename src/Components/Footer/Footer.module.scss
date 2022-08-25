@@ -1,6 +1,9 @@
 .container{
     border: 2px solid whitesmoke;
-    margin: 10rem 2rem 2rem 2rem ;
+    margin-top: 10rem;
+    margin-right: 7rem;
+    margin-bottom: 2rem;
+    margin-left: 3rem;
     display: flex;
     justify-content: space-between;
     height: 10rem;
@@ -9,8 +12,6 @@
 
     .logo{
         margin-left: 6rem;
-        // height: 2.5rem;
-        
         img {
             object-fit: cover;
             height: 5rem;
@@ -30,20 +31,20 @@
     }
 }
 
-@media only screen and (max-width:1024px){
+@media only screen and (max-width:1200px){
     .container{
-        width: 75rem !important;
-        margin-bottom: 1rem !important;
+        margin-right: 4rem;
     }
-    
 }
+    
+// }
 
-@media only screen and (max-width:768px){
-    .container{
-        width: 74.5rem !important;
-    }
+// @media only screen and (max-width:768px){
+//     .container{
+//         width: 74.5rem !important;
+//     }
     
-}
+// }
 
 @media only screen and (max-width:600px){
     .container{    

@@ -14,10 +14,10 @@
         margin-top: 1.5rem;
         
         .logo{
-            flex: 0.45;
+            flex: 0.4;
             
             img {
-                margin-left: 7rem;
+                margin-left: 10rem;
             }
         }
 
@@ -42,7 +42,7 @@
                 height: 4rem;
                 line-height: 4rem;
                 text-align: center;
-                border: 2px solid #4a4a4a;
+                border: 2.5px solid #4a4a4a;
                 border-radius: 30px;
                 flex: 0.15;
             }
@@ -50,18 +50,18 @@
     }
 }
 
-@media only screen and (max-width:1024px){
-    .container{
-        width: 77rem;
-        background: #FFFFFF;
-    }
-}
+// @media only screen and (max-width:1024px){
+//     .container{
+//         width: 77rem;
+//         background: #FFFFFF;
+//     }
+// }
 
-@media only screen and (max-width:768px){
-    .container{
-        width: 77rem;
-    }
-}
+// @media only screen and (max-width:768px){
+//     .container{
+//         width: 77rem;
+//     }
+// }
 
 @media only screen and (max-width:600px) {
     .container{

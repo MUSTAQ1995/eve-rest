@@ -145,48 +145,20 @@
 };
 
 
-
-
-// @media only screen and (max-width:768px){
-//     .workthree{
-//         .workthreepictures{
-//             .threethree{
-//                 margin-left: 14.6rem !important;
-//                 margin-top: -10rem;
-//             }
-//         }
-//         .descthree{
-//             flex: 0.4;
-//             margin-top: 2rem;
-//             margin-left: 2rem;
-//             span {
-//                 font-size: 2.5rem;
-//                 font-weight: 500;
-//             }
-//             p{
-//                 width: 100%;
-//                 margin-top: 1rem;
-//                 font-size: large;
-//                 font-weight: 500;
-//             }
-//         }
-//     }
-// }
-
 @media only screen and (max-width:600px){
     .workthree{
         display: block;
-        margin-left: 10rem;
+        margin-left: 0rem;
+        margin-top: 95rem;
         .workthreepictures{
-            
             .picthree{
                 float: left;
-                margin-left: 9rem !important;
-                margin-bottom: -53rem !important;
-                height: 60rem !important;
+                margin-left: 9rem ;
+                margin-bottom: -53rem;
+                height: 60rem ;
             }
             .threethree{
-                margin-left: 12.6rem !important;
+                margin-left: -7rem;
                 height: 20rem;
                 margin-bottom: 7rem;
                 margin-top: 1rem;

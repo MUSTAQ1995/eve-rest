@@ -1,5 +1,5 @@
 .container{
-    border: 2px solid whitesmoke;
+    border: 5px solid whitesmoke;
     margin-top: 10rem;
     margin-right: 2rem;
     margin-bottom: 2rem;
@@ -52,8 +52,7 @@
 // }
 
 @media only screen and (max-width:600px){
-    .container{    
-        width: 73rem !important;
+    .container{  
         margin-left: 2rem;
     }
 }

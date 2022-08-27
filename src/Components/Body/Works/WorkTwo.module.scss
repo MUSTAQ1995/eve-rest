@@ -191,45 +191,47 @@
     }
 }
 
-    // @media only screen and (max-width:600px){
-    //     .worktwo{
-    //         display: block;
-    //         margin-top: -11rem;
-    //         margin-right: 20rem;
-    //         .workTworight{
-    //             width: 100%;
-    //             .workTwopictures{
-    //                 margin-left: 1rem !important;
-    //                 .pictwo{
-    //                     float: right;
-    //                     margin-top: 6rem;
-    //                     background-position-x: 67rem;
-    //                     background-position-y: 25rem;
-    //                     height: 86rem;
-    //                     width: 109rem;
-    //                     background: none;
-    //                 }
-    //                 .twotwo{
-    //                     height: 20rem !important;
-    //                     margin-top: 15rem;
-    //                     margin-left: -16rem !important;
-    //                 }
-    //             }
-    //             .workTwodesc{
-    //                 width: 100% !important;
-    //                 margin-top: -4rem;
-    //                 margin-right: 16rem !important;
-    //                 span {
-    //                     font-size: 7rem !important;
-    //                     font-weight: 500 !important;
-    //                 }
-    //                 p{
-    //                     margin-top: 1rem;
-    //                     font-size: 3rem;
-    //                     width: 50rem;
-    //                     font-weight: 500;
-    //                 }
-    //             }
-    //         }
-    //     }
-    // }
+    @media only screen and (max-width:600px){
+        .worktwo{
+            display: block;
+            margin-top: -0rem;
+            // margin-right: 20rem;
+            .workTworight{
+                width: 100%;
+                .workTwopictures{
+                    // margin-left: 1rem !important;
+                    .pictwo{
+                        // float: right;
+                        // margin-top: 6rem;
+                        // background-position-x: 67rem;
+                        // background-position-y: 25rem;
+                        height: 86rem;
+                        width: 118rem;
+                        margin-bottom: -77rem;
+                        // background: none;
+                        margin-right: -15rem;
+                    }
+                    .twotwo{
+                        height: 20rem;
+                        margin-top: 0rem;
+                        margin-left: 10rem;
+                    }
+                }
+                .workTwodesc{
+                    width: 100%;
+                    margin-top: 40rem;
+                    margin-right: -11rem;  
+                    span {
+                        font-size: 7rem;
+                        font-weight: 500 ;
+                    }
+                    p{
+                        margin-top: 1rem;
+                        font-size: 3rem;
+                        width: 50rem;
+                        font-weight: 500;
+                    }
+                }
+            }
+        }
+    }

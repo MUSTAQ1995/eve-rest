@@ -1,9 +1,9 @@
 .container{
     width: 100%;
     .topbar{
-        height: 0.4rem;
         img {
             width: 100%;
+            margin-bottom: 0.5rem;
         }
     }
     .navbar{
@@ -63,6 +63,7 @@
         }
     }
 }
+
 @media only screen and (max-width:768px){
     .container{
         .navbar{
@@ -90,6 +91,37 @@
                     }
                 }
 
+            }
+        }
+    }
+}
+
+@media only screen and (max-width:721px){
+    .container{
+        .navbar{
+            .navbarmenu {
+                .menudetails{   
+                    margin-left: -5rem;
+                }
+                .login{
+                    h1 {
+                        font-size: 1.2rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width:676px){
+    .container{
+        .navbar{
+            .navbarmenu {
+                .menudetails{   
+                    li{
+                        font-size: 1rem;
+                    }
+                }
             }
         }
     }

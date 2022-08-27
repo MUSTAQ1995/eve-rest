@@ -89,6 +89,17 @@
         }
     }
 }
+
+@media only screen and (max-width:674px) {
+    .container{
+        .description{
+            span {
+                font-size: 3rem ;
+                font-weight: 500 ;
+            }
+        }
+    }
+}
 @media only screen and (max-width:768px) {
     .container{
         .description{

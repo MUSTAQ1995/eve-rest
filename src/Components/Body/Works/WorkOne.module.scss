@@ -4,7 +4,6 @@
 
     .workonepictures{
         flex: 0.5;
-        margin-right: 5rem;
         .picone{
             float: right;
         }
@@ -45,6 +44,36 @@
     }
 }
 
+@media only screen and (max-width:674px){
+    .workone{
+    
+        .workonepictures{
+            .picone{
+                float: right;
+                margin-bottom: -44rem;
+            }
+            .oneone{
+               margin-left: 3rem;
+               float: left;
+            }
+        }
+        // .descone{
+        //     flex: 0.5;
+        //     margin-top: 2rem;
+        //     margin-left: 2rem;
+        //     span {
+        //         font-size: 4rem;
+        //         font-weight: 500;
+        //     }
+        //     p{
+        //         width: 50%;
+        //         margin-top: 2rem;
+        //         font-size: 2rem;
+        //         font-weight: 500;
+        //     }
+        // }
+    };
+}
 @media only screen and (max-width:600px){
     .workone{
         margin-top: 2rem;

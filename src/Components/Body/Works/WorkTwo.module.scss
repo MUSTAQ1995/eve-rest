@@ -7,7 +7,7 @@
                 float: right;
                 background: url("../../../assets/pngs/work2-art.png");
                 background-repeat: no-repeat;
-                background-size: 35rem;
+                background-size: 26%;
                 background-position-x: 72.5%;
                 margin-bottom: -23.5rem;
                 background-position-y: 37%;
@@ -152,25 +152,44 @@
     }
 }
 
-@media only screen and (max-width:768px){
-        .worktwo {
-            .workTworight{
-                .workTwopictures{
-                    .pictwo{
-                        height: 80rem;
-                        background-size: 35rem;
-                    }
-                    .twotwo{
-                        margin-top: -7.5rem !important;
-                        margin-left: 39.5%;
-                    }
+@media only screen and (max-width:800px){
+    .worktwo {
+        .workTworight{
+            .workTwopictures{
+                .pictwo{
+                    height: 95rem;
+                    // background-size: 27rem;
                 }
-                .workTwodesc{
-                   margin-right: 7%;
+                .twotwo{
+                    margin-left: 39.5%;
+                    margin-top: -12.5rem;
                 }
-            } 
-        }
+            }
+            .workTwodesc{
+                margin-right: 7%;
+            }
+        } 
     }
+}
+
+@media only screen and (max-width:768px){
+    .worktwo {
+        .workTworight{
+            .workTwopictures{
+                .pictwo{
+                    height: 80rem;
+                }
+                .twotwo{
+                    margin-top: -7.5rem;
+                    margin-left: 39.5%;
+                }
+            }
+            .workTwodesc{
+                margin-right: 7%;
+            }
+        } 
+    }
+}
 
     // @media only screen and (max-width:600px){
     //     .worktwo{

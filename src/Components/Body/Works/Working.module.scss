@@ -16,21 +16,8 @@
     }
 };
 
-// @media only screen and  (max-width:1024px) {
-//     .working{
-//         width:77rem !important
-//     }
-// };
-
-// @media only screen and (max-width:768px){
-//         .working{
-//             width:77rem !important
-//         }
-// };
-
 @media only screen and (max-width:600px){
     .working{
-        // width: 76.5rem ;
         height: 18rem;
 
         span {
@@ -39,7 +26,6 @@
             font-weight: 500;
         }
         img {
-            // margin-left: 12%;
             height: 4rem;
         }
     }
